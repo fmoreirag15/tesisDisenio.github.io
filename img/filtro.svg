@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.4.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 150 150" style="enable-background:new 0 0 150 150;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);stroke:#000000;stroke-width:2;stroke-miterlimit:10;}
+	.st1{fill:#FFFFFF;}
+	.st2{fill:#CCCCCC;stroke:#000000;stroke-width:2;stroke-miterlimit:10;}
+	.st3{fill:#333333;}
+</style>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="39.5634" y1="101.3034" x2="106.7035" y2="27.2125">
+	<stop  offset="0.177" style="stop-color:#009245"/>
+	<stop  offset="0.3632" style="stop-color:#19A147"/>
+	<stop  offset="0.5586" style="stop-color:#2BAC49"/>
+	<stop  offset="0.7653" style="stop-color:#36B34A"/>
+	<stop  offset="1" style="stop-color:#39B54A"/>
+</linearGradient>
+<path class="st0" d="M74.4,131.1h-0.6c-11,0-20-8.9-20-20V76c0-3.7-1-7.4-3-10.5L38.7,45.8c-8.3-13.3,1.3-30.5,17-30.5h37
+	c15.6,0,25.2,17.1,17,30.4l-12.4,20c-1.9,3.2-3,6.8-3,10.5v35C94.4,122.2,85.4,131.1,74.4,131.1z"/>
+<circle class="st1" cx="101" cy="36.7" r="1.5"/>
+<ellipse class="st1" cx="104.8" cy="41.1" rx="3.5" ry="3.3"/>
+<path class="st2" d="M116.4,125.2H78.1c-7.1,0-12.9-5.8-12.9-12.9V86.1c0-7.1,5.8-12.9,12.9-12.9h38.3c7.1,0,12.9,5.8,12.9,12.9
+	v26.3C129.3,119.5,123.5,125.2,116.4,125.2z"/>
+<circle class="st3" cx="79.1" cy="87.2" r="4.1"/>
+<circle class="st3" cx="79.1" cy="111" r="4.1"/>
+<circle class="st3" cx="79.1" cy="98.6" r="4.1"/>
+<path class="st3" d="M115.3,84.1H89.6c-1.7,0-3.1,1.4-3.1,3.1l0,0c0,1.7,1.4,3.1,3.1,3.1h25.7c1.7,0,3.1-1.4,3.1-3.1l0,0
+	C118.5,85.5,117.1,84.1,115.3,84.1z"/>
+<path class="st3" d="M115.3,95.4H89.6c-1.7,0-3.1,1.4-3.1,3.1l0,0c0,1.7,1.4,3.1,3.1,3.1h25.7c1.7,0,3.1-1.4,3.1-3.1l0,0
+	C118.5,96.8,117.1,95.4,115.3,95.4z"/>
+<path class="st3" d="M115.3,107.9H89.6c-1.7,0-3.1,1.4-3.1,3.1l0,0c0,1.7,1.4,3.1,3.1,3.1h25.7c1.7,0,3.1-1.4,3.1-3.1l0,0
+	C118.5,109.3,117.1,107.9,115.3,107.9z"/>
+</svg>

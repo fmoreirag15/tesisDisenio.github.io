@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Pruebas</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="CSS.css" rel="stylesheet" type="text/css" />
+    <script  src="bootstrap/js/jquery-2.1.1.min.js" ></script>
+</head>
+<body >
+
+ <nav class="navbar  navbar-expand-lg navbar-light bg-light" style="position: sticky; top: 0; background: #fff !important;z-index: 10; box-shadow: 0px 1px 10px 1px rgba(0,0,0,0.55);">
+  <a style="font-size: 25px" class="navbar-brand" href="#">
+     <img src="img/4.svg" width="50" height="" class="d-inline-block align-top" alt="">
+      <b>ALLPA</b></a>
+  <div class="collapse   navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav  mr-auto">
+      <li class="nav-item ">
+        <a class="nav-link " style="color:#023535 " href="#">Introduction</a>
+      </li>
+         <li class="nav-item">
+        <a class="nav-link " style="color:#023535 " href="#">Proyecto</a>
+      </li>
+        
+        <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" style="color:#023535 " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Herramientas
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#section_dashboard">Dashboard</a>
+          <a class="dropdown-item" href="#section_mapa">Mapa interactivo</a>
+            <a class="dropdown-item" href="#section_sna">Social network analysis</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#"></a>
+        </div>
+      </li>
+     <!-- <li class="nav-item">
+        <a class="nav-link " style="color:#023535 " href="#">AppMapa</a>
+        </li>
+      <li class="nav-item ">
+        <a class="nav-link "  style="color:#023535 " href="#" >
+          Social network analysis
+        </a>
+      </li>-->
+    </ul>
+  </div>
+</nav>
+    <img src="img/wave.svg" style="position: absolute;opacity: 0.2" >
+    <div class="container"   >
+
+        <div class="row mt-5" style="max-width: 100%;">
+            
+            <div class="col-6">
+            <h1 class="font-weight-bold mb-5">Obtén información sobre la actividad telúrica de los países! </h1>
+            <p>ALLPA es una aplicación que permite informarse sobre los movimientos telúricos en diferentes regiones del mundo, con esta herramienta puede acceder a gráficos estadísticos, redes SNA y mapa interactivo.</p>
+            <a target="_blank" href="https://uteq.shinyapps.io/Proyecto/" class="btn font-weight-bold mt-4" style="background: #023535; color: white">Utilizar herramientas</a>
+            </div>
+            <div class="col-6"> <!-- row rounded-circle justify-content-center align-items-center-->
+                <ul class="list-group m-0 p-0">
+                      <li class="m-2 d-flex justify-content-end align-items-center">
+                         <b style="color: #023535; font-size: 25px">DASHBOARD</b>
+                        <div class="raound m-3 rounded-circle row rounded-circle justify-content-center align-items-center" style="width: 100px;  height: 100px;background: #023535; ">
+                          <img src="iconos/dashboard.png" width="50" height="" class="d-inline-block align-top" alt="">
+                        </div>
+                          
+                      </li> 
+                      <li class="m-2 d-flex justify-content-end align-items-center">
+                           <b style="color: #023535; font-size: 25px">MAPA INTERACTIVO</b> 
+                        <div class="raound m-3  rounded-circle row rounded-circle justify-content-center align-items-center" style="width: 100px;  height: 100px;background: #023535; ">
+                          <img src="iconos/map.png" width="50" height="" class="d-inline-block align-top" alt="">
+                        </div>
+                       
+                      </li>
+                      <li class="m-2 d-flex justify-content-end align-items-center">   
+                           <b style="color: #023535; font-size: 25px">SOCIAL NETWORK ANALYSIS</b> 
+                        <div class="raound m-3 rounded-circle row rounded-circle justify-content-center align-items-center" style="width: 100px;  height: 100px;background: #023535; ">
+                          <img src="iconos/red_2.png" width="50" height="" class="d-inline-block align-top" alt="">
+                        </div>
+                       
+                      </li>
+                    </ul>
+
+            </div>
+        </div>
+    </div>
+    <div class="p-5 mt-5" style="background: #023535; max-width:100%">
+        <img src="img/wave002.svg" style="position: absolute;opacity: 0.02;left: 0px" >
+        <div class="container">
+         
+            <h4 style="color: white" class="text-center mb-5">CATEGORÍAS DE LOS MOVIMIENTOS TELURICOS </h4>
+            <div class="row justify-content-center" style="color: white" >
+                <div class="col-lg-6 d-flex justify-content-center">
+                    <h3>REGIONES :</h3>
+                   
+                <ul class="ml-5" style="list-style-type: none;  border-left: 5px solid" >
+                        <li><img src="img/America.svg" width="50" height="" class="d-inline-block align-top mr-2" alt=""> <b> Norte America</b></li>
+                        <li><img src="img/Centro_America.svg" width="50" height="" class="d-inline-block align-top mr-2" alt=""><b> Centro America</b></li>
+                        <li><img src="img/Sur_America.svg" width="50" height="" class="d-inline-block align-top mr-2" alt=""> <b>Sur America</b></li>
+                        <li><img src="img/Europa.svg" width="50" height="" class="d-inline-block align-top mr-2" alt="">  <b>Europa</b></li>
+                        <li><img src="img/Asia.svg" width="50" height="" class="d-inline-block align-top mr-2" alt=""><b>Asia</b></li>
+                        <li><img src="img/Africa.svg" width="50" height="" class="d-inline-block align-top mr-2" alt=""><b>Africa</b></li>
+                        <li><img src="img/Australia.svg" width="50" height="" class="d-inline-block align-top mr-2" alt=""><b>Australia</b></li>
+                </ul>
+                </div>
+                <div class="col-lg-6 d-flex justify-content-center">
+                    <h3>NIVELES :</h3>
+                    <ul class="ml-5" style="list-style-type: none; border-left: 5px solid" >                     
+                        <li><b>Según su magnitud:</b>
+                   
+                        <ul style="list-style:none">
+                            <li>Menor : <i class="font-weight-bold" style="font-size: 20px" >1.0 - 3.9</i></li> 
+                            <li>Ligero : <i  class="font-weight-bold" style="font-size: 20px">4.0 - 4.9</i></li>
+                            <li>Moderado : <i  class="font-weight-bold" style="font-size: 20px">5.0 - 5-9</i></li>
+                            <li>Fuerte : <i  class="font-weight-bold" style="font-size: 20px">6.0 - 6-9</i></li>
+                            <li>Mayor : <i  class="font-weight-bold" style="font-size: 20px">7.0 - 7.9</i></li>
+                            <li>Grandes : <i  class="font-weight-bold" style="font-size: 20px">8.0</i></li>
+                        </ul>
+                        </li>
+                        <li class="mt-3"><b>Según su profundidad:</b>
+                            <ul style="list-style:none">
+                            <li>Superficial : <i class="font-weight-bold" style="font-size: 20px" > &lt; 70km</i> </li> 
+                            <li>Intermedio : <i class="font-weight-bold" style="font-size: 20px">70km - 300km</i></li>
+                            <li>Profundo : <i class="font-weight-bold" style="font-size: 20px"> &gt; 300km</i></li>
+                            
+                        </ul>
+                        </li>
+                       
+                    </ul>
+                </div>                
+            </div>
+        </div>
+    </div>
+   
+    <div class="row d-flex justify-content-center" style="max-width: 100%">
+    <img src="img/4.svg" width="350" height="" alt="">
+      
+    </div>
+      <h1 id="section_herramientas" class="text-center mt-2 font-weight-bold" style="color:  #023535"> HERRAMIENTAS DISPONIBLES EN ALLPA </h1>
+    <p class="text-center m-auto" style="max-width: 500px">Detalla la cantidad de movimientos telúricos registrados en el año actual, mes, día y cantidad de países que se analizan.</p>
+    
+   <div id="section_dashboard"></div>
+     <hr> 
+        <img src="img/wave004.svg" style="position: absolute;opacity: 0.04" >
+
+    <div class="mt-5 mb-5 container" style="max-width: 100">
+        <div class="row ">
+        <div class="col-6 mt-5">
+            <div class="p-3 d-flex flex-wrap" style="width: 100%; height: 300px; 
+                        box-shadow: -3px 6px 21px -3px rgba(0,0,0,0.65);
+                        -webkit-box-shadow: -1px px 31px -3px rgba(0,0,0,0.65);
+                        -moz-box-shadow: -3px 4px 11px -3px rgba(0,0,0,0.65);
+                                                     border-radius: 10px;z-index: 10; background: white">
+                
+                
+                <div class="borde-mio  d-flex justify-content-center align-items-center" style=" min-width: 45%;  height: 100px;">
+                <img src="iconos/barchart.png" width="100" height="" class="d-inline-block align-top" alt="">
+                <img src="iconos/area.png" width="100" height="" class="d-inline-block align-top" alt="">
+                </div>
+                
+                <div class="borde-mio  d-flex justify-content-center align-items-center" style=" min-width: 25%;  height: 100px;">
+                     <img src="iconos/increase.png" width="80%"  class="" alt="">
+                </div>
+                <div class="borde-mio  d-flex justify-content-center align-items-center" style=" min-width: 24%;  height: 100px;">
+                    <img src="iconos/Pastel.png" width="80%"  class="" alt=""> 
+                </div>                
+                <div class="borde-mio d-flex justify-content-center align-items-center" style="width: 100%;   height: 100px;">
+                <img src="iconos/Pastel.png"   class="" alt=""> 
+                    <img src="iconos/pastel_2.png"   class="" alt=""> 
+                    <img src="iconos/Pastel.png"   class="" alt=""> 
+                    <img src="iconos/barrar_2.png"   class="" alt=""> 
+                    <img src="iconos/mindmap.png"   class="" alt=""> 
+                </div>
+            </div>
+        </div>
+            <div class="col-6 mt-5">
+            <h3 class="font-weight-bold mb-3"  style="color: #023535">DASHBOARD</h3>
+            <p><i>En esta sección se muestran indicadores claves para analizar visualmente la cantidad de movimientos telúricos registrados en diferentes regiones del mundo en tiempo real.</i></p>          
+            <button class="btn font-weight-bold mt-5 float-right"  data-toggle="modal" data-target="#exampleModal" style="background: #023535; color: white">Ir a dashboard</button>     
+        </div>
+        </div>
+        <div class="row mt-5 mb-5 justify-content-center">
+        <h4 class="font-weight-bold mt-5 mb-5">GRÁFICOS DISPONIBLES DEL DASHBOARD</h4>
+        <div class="row">
+            <div class="col-lg-4 ">
+                <div class=" m-auto "  style="width: 150px; height: 150px; border: 0px solid  #023535;
+                                                           background-image: url(img/cantidad%20de%20sismos.svg);
+                                                            background-size: auto">
+                </div>
+                <h6 class="font-weight-bold  text-center">Estadisticas de sismos</h6>
+                <p class="text-center">Detalla la cantidad de movimientos telúricos registrados en el año actual, mes, día y cantidad de países que se analizan. </p>
+            </div>
+            <div class="col-lg-4">
+                 <div class=" m-auto "  style="width: 150px; height: 150px; border: 0px solid  #023535;
+                                                           background-image: url(img/barra_mensual.svg);
+                                                            background-size: auto">
+                </div>
+                <h6 class="font-weight-bold text-center">Gráfica mensual de sismos</h6>
+            <p class="text-center">Permite visualizar un gráfico de barras con la cantidad de movimientos telúricos registrados mensualmente aplicando el filtro para elegir la región y el año.</p>
+            </div>
+            <div class="col-lg-4">
+                  <div class=" m-auto "  style="width: 150px; height: 150px; border: 0px solid  #023535;
+                                                           background-image: url(img/graf_pastel.svg);
+                                                            background-size: auto">
+                </div>
+                <h6 class="font-weight-bold text-center">Reporte por categorías</h6>
+                <p class="text-center">Muestra gráficos estilo pastel para visualizar los tipos de eventos que ocurren con mayor frecuencia según su magnitud y profundidad. </p>
+            </div>
+            <div class="col-lg-12 mt-5 ">
+                <div class=" m-auto "  style="width: 150px; height: 150px; border: 0px solid  #023535;
+                                                           background-image: url(img/mapita.svg);
+                                                            background-size: auto">
+                </div>
+                <h6 class="font-weight-bold text-center">Gráfica anual por región</h6>
+                <p class="text-center">Permite visualizar en un gráfico de barras <br> la cantidad de movimientos telúricos <br>registrados en cada región por año </p>
+            </div>
+        </div>
+        </div>
+        
+     </div> 
+    <hr>
+    <div id="section_mapa"></div>
+    <img src="img/wave005.svg" style="position: absolute;opacity: 0.1" >
+     <div class="mt-5 mb-5 container" style="max-width: 100">
+         <div class="row mt-5">
+        
+            <div class="col-6 mt-5">
+            <h3 class="font-weight-bold mb-3"  style="color: #023535">MAPA INTERACTIVO</h3>
+            <p><i>Mapa interactivo para visualizar los movimientos telúricos categorizados según la magnitud del evento. Proporciona información de la magnitud, tipo de magnitud, país y región</i></p> 
+                 <button class="btn font-weight-bold mt-5 float-right" style="background: #023535; color: white">Ir al mapa </button> 
+          
+           
+                
+            </div>
+             <div class="col-6 mt-5">
+              
+                 <div class="borde-mio  d-flex justify-content-center align-items-center" style="width: 100%;   background: white; height: 300px;">
+                  
+                 <div class="mr-3" style=" width: 20%;  height: 90%;">
+                     <div class="text-center mt-2 font-weight-bold" style="color: black">Filtros</div>
+                     <ul class="list-group m-2 p-0 list-group-flush">
+                          <li class="list-group-item"></li>
+                          <li class="list-group-item"></li>
+                          <li class="list-group-item"></li>
+                          <li class="list-group-item"></li>
+                          <li class="list-group-item"></li>
+                    </ul>
+                   
+                    
+                </div> 
+                  <div  style=" width: 70%;  height: 90%; 
+                                                 background-image: url(img/descarga.png); background-repeat: no-repeat;
+                                                 background-size: cover;border-radius: 10px; ">
+                    
+                </div> 
+                  
+              
+                 </div>
+                 
+        </div>
+       
+        </div>
+        <div class="row mt-5 mb-5 justify-content-center">
+        <h4 class="mt-5 mb-5 font-weight-bold">OPCIONES DEL MAPA</h4>
+        <div class="row">
+            <div class="col-lg-6 ">
+                <div class=" m-auto "  style="width: 150px; height: 150px; border: 0px solid  #023535;
+                                                           background-image: url(img/filtro.svg);
+                                                            background-size: auto">
+                </div>
+                <h6 class="font-weight-bold  text-center">Filtros</h6>
+                <p class="text-center">Proporciona funciones para aplicar filtros y seleccionar el año de los registros de movimientos telúricos que se quiere visualizar en el mapa </p>
+            </div>
+            <div class="col-lg-6">
+                 <div class=" m-auto "  style="width: 150px; height: 150px; border: 0px solid  #023535;
+                                                           background-image: url(img/Ecuador_sismos.svg);
+                                                            background-size: auto">
+                </div>
+                <h6 class="font-weight-bold text-center">Modos de vizualización</h6>
+            <p class="text-center">Tiene la función para cambiar el estilo al mapa y adaptarse a los contrastes que prefiere el usuario</p>
+            </div>             
+        </div>
+        </div>
+    </div>     
+        
+         <br>
+         <div id="section_sna"></div>
+    <img src="img/wave006.svg" style="position: absolute;opacity: 0.04;z-index: -1" >
+        <hr>
+    <div class="mt-5 mb-5 container" style="max-width: 100">
+        <div class="row mt-5">
+        <div class="col-6">
+            <div class="borde-mio  d-flex justify-content-center align-items-center" style="width: 100%;   height: 300px;background: #fff">
+                <img src="img/7.svg" alt="">
+            </div>
+        </div>
+            <div class="col-6">
+            <h3 class="font-weight-bold mb-3"  style="color: #023535">SOCIAL NETWORK ANALYSIS (SNA)</h3>
+            <p><i>Gráficos de redes para analizar los datos de eventos telúricos en tiempo real e identificar los países con mayor frecuencia de movimientos telúricos según las categorías por magnitud y profundidad.</i></p>
+                 <button class="btn font-weight-bold mt-5 float-right" style="background: #023535; color: white">Ver el SNA</button> 
+                <button class="btn font-weight-bold mt-5 mr-2 float-right" style="background: #FFAB00; color: #023535">Explicación del SNA</button> 
+        </div>
+        </div>
+          <div class="row mt-5 mb-5 justify-content-center">
+        <h4 class="col-lg-12 mt-5 text-center mb-5 font-weight-bold">SIMBOLOGÍA DE REDES SNA</h4>
+        
+        <div class="col-lg-6  mb-5">
+                   <p style="font-size: 17px">Los nodos representan a los países y a las categorías, se grafican en la red en forma de círculos. El tamaño de los nodos varían porque se determina con la cantidad de movimientos telúricos que se han registrado en ese país y categoría. </p> 
+        </div>
+        <div class="row justify-content-center mb-5 col-lg-6">
+            <small  style="color: dimgray; "><i>Tabla 1: significado del tamanño del nodo</i></small>
+            <table style="width: 500px; background: #fff " class="table rounded">
+              <thead>
+              </thead>
+              <tbody >
+                <tr >
+                  <td><div class="rounded-circle m-auto" style="width: 55px; height: 55px; background: #4472C4"></div></td>
+                  <td>Menor cantidad de movimientos telúricos</td>
+                
+                </tr>
+                <tr>
+                  <td><div class="rounded-circle m-auto" style="width: 75px; height: 75px; background: #4472C4"></div></td>
+                  <td>Mayor cantidad de movimientos telúricos</td>
+                </tr>
+              </tbody>
+            </table>
+           
+        </div>    
+             
+            <div class="col-lg-6 row justify-content-center  mb-5">
+                 <small  style="color: dimgray; "><i>Tabla 1: significado del tamanño del nodo</i></small>
+                <table style="width: 500px; background: #fff " class="table">
+              <thead>
+
+              </thead>
+              <tbody>
+                <tr>
+                  <td><div class="m-auto" style="width: 55px; height: 2px; background: #4472C4"></div></td>
+                  <td>Menor cantidad de movimientos telúricos registrados de ese tipo de categoría en cada país</td>
+                
+                </tr>
+                <tr>
+                  <td><div class="m-auto" style="width: 75px; height: 10px; background: #4472C4"></div></td>
+                  <td>Mayor cantidad de movimientos telúricos registrados de ese tipo de categoría en cada país</td>
+                </tr>
+              </tbody>
+            </table>
+            </div>    
+            <div class="col-lg-6  mb-5">
+               <p style="font-size: 17px">Las relaciones se representan con líneas que unen a los nodos de categoría con los nodos de países. El grosor de la línea representa la cantidad de registros de movimientos telúricos.</p> 
+            </div>
+              <div class="col-lg-6  mb-5">
+                  <p style="font-size: 17px">El color de los nodos y líneas representan a qué región pertenece, como se muestra en la siguiente tabla: </p>
+              </div>
+              <div class="col-lg-6  mb-5 row justify-content-center">
+                    <small  style="color: dimgray; "><i>Tabla 1: significado del tamanño del nodo</i></small>
+                   <table  style="width: 500px; background: #fff; " class="table">
+              <thead>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><div class="m-auto" style="width: 55px; height: 20px; background: #4472C4; border-radius: 10px"></div></td>
+                  <td>Sudamérica</td>               
+                </tr>
+                  <tr>
+                  <td><div class="m-auto" style="width: 55px; height: 20px; background: #FFFF00; border-radius: 10px"></div></td>
+                  <td>Centro América</td>               
+                </tr>
+                  <tr>
+                  <td><div class="m-auto" style="width: 55px; height: 20px; background: #E1382B; border-radius: 10px"></div></td>
+                  <td>Sudeste Asiático</td>               
+                </tr>
+                  <tr>
+                  <td><div class="m-auto" style="width: 55px; height: 20px; background: #70AD47; border-radius: 10px"></div></td>
+                  <td>Mediterraneo Oriental</td>               
+                </tr>
+                <tr>
+                  <td><div class="m-auto" style="width: 55px; height: 20px; background: #D51FCC; border-radius: 10px"></div></td>
+                  <td>Tipo de categoría </td>                    
+                </tr>
+              </tbody>
+            </table> 
+              </div>                                                                            
+        </div>  
+    </div>
+        
+   
+      <div class=" mt-5 p-5" style=" width: 100%;background: #023535">
+        <div class="container ">
+               <div class="row justify-content-center" style="color: white" >
+                  <ul class="col-lg-4 " style="list-style-type: none; border-left: 5px solid" >                     
+                        <li><b>TECNOLOGÍAS APLICADAS:</b>
+                   
+                        <ul style="list-style:none">
+                            <li><b>-</b> R Studio</li> 
+                            <li><b>-</b> JavaScript</li>
+                            <li><b>-</b> shiny r</li>
+                            <li><b>-</b> Leaflet</li>
+                            <li><b>-</b> Web scraping</li>
+                            <li><b>-</b> Grandes</li>
+                        </ul>
+                        </li>
+                        <li class="mt-3"><b>RECOLECCIÓN DE DATOS:</b>
+                           <div class="d-flex">
+                               <img style="border-radius: 10px" class="mr-2" src="img/iris.PNG">
+                               <p class="font-weight-bol" style="width: 100%; font-size: 21px">Incorporated Research Institutions for Seismology</p>
+                           </div>
+                        </li>
+                       
+                    </ul>
+                    <ul class="col-lg-4" style="list-style-type: none; border-left: 5px solid" >                     
+                        <li><b>DESARROLLADORES:</b>
+                   
+                        <ul style="list-style:none">
+                            <li><b>-</b> Francisco Simón Moreira Gacía</li> 
+                            <li><b>-</b> Doris Michelle Solano Chico</li>
+                        </ul>
+                        
+                        </li>
+                        <li><b>COLABORADORES:</b>
+                   
+                        <ul style="list-style:none">
+                            <li><b>-</b>Fulano uno</li> 
+                            <li><b>-</b>Menngano dos</li>
+                            <li><b>-</b>Menngano dos</li>
+                        </ul>
+                        
+                        </li>
+                        <li class="mt-3"><b>UNIVERSIDAD:</b>
+                           <div class="d-flex">
+                               <img style="border-radius: 10px; background: #fff" width="125" height="125" class="mr-2" src="img/photo_2022-05-13_18-03-24.jpg">
+                               <p class="font-weight-bol mt-3" style="width: 100%; font-size: 23px">Universidad Técnica Estatal de Quevedo</p>
+                           </div>
+                        </li>                       
+                    </ul>    
+                    <ul class="col-lg-4" style="list-style-type: none; border-left: 5px solid" >                     
+                        <li><b>MISIÓN:</b>
+                   
+                        <ul style="list-style:none">
+                            <li><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            </p></li> 
+                        </ul>
+                        
+                        </li>
+                        <li><b>VISIÓN:</b>
+                   
+                        <ul style="list-style:none">
+                            <li><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            </p></li>
+                        </ul>
+                        
+                        </li>
+                        <li class="mt-3"><b>FACULTA:</b>
+                           <div class="d-flex">
+                               <img style="border-radius: 10px; background: #fff" width="125" height="125" class="mr-2" src="img/logo_fci.jpg.crdownload">
+                               <p clasFacultad de Ciencias de la Ingenierías="font-weight-bol mt-3" style="width: 100%; font-size: 23px">Facultad de Ciencias de la Ingeniería</p>
+                           </div>
+                        </li>
+                       
+                    </ul>        
+               </div>
+        </div>
+        
+    </div>
+</body>           
+<script  src="bootstrap/js/bootstrap.js" ></script>
